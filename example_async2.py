@@ -10,6 +10,7 @@ fizzbuzzロジック中にsleep したときに上手く
 """
 
 import asyncio
+import numpy as np
 
 def fizzbuzz(i):
     if i == 15:
